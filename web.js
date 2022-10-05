@@ -1,7 +1,7 @@
 // web.js
 const http = require("http");
 const host = 'localhost';
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 80;
 
 const requestListener = function (req, res) {
   res.writeHead(200);
